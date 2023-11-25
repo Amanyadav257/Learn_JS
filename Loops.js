@@ -19,6 +19,17 @@ for(let a of "harry"){
   }
 }
 
+const marks={
+    harry: 90,
+    shaubham: 56,
+    lovish: 56,
+    monika: 4
+}
+
+for(let i=0;i < Object.keys(marks).length;i++){
+    console.log(Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]]);
+}
+
 //while loop
 let a=0;
 while(a < 10){
