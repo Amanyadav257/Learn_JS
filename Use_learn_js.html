@@ -9,13 +9,13 @@
 <body>
     <script type="text/javascript">  
         function printvalue(){  
-        var name=document.getElementsByName().values;  
-        alert("Welcome: "+name);  
+        var name=document.getElementsByName("ame")[0];  
+        alert("Welcome: "+name.value);  
         }  
         </script>  
           
         <form name="form1">  
-        Enter Name:<input type="text" name="name"/>  
+        Enter Name:<input type="text" name="ame"/>  
         <input type="button" onclick="printvalue()" value="print name"/>  
         </form>  
 </body>
